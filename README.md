@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React Front-End application that leverages Google's Firebase DB, Stripe Payment Integration and Redux to E-Commerce Web App. Note that payments do not validate because there is no server attached to the application (so far). 
 
 ## Available Scripts
 
