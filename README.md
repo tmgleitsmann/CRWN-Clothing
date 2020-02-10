@@ -1,5 +1,7 @@
 A React Front-End application that leverages Google's Firebase DB, Stripe Payment Integration and Redux to E-Commerce Web App. Note that payments do not validate because there is no server attached to the application (so far). 
 
+npm install all packages, then npm run to initialize the application.
+
 ## Available Scripts
 
 In the project directory, you can run:
