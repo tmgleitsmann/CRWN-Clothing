@@ -43,12 +43,12 @@ class AppRouter extends React.Component {
             <div>
                 <BrowserRouter>
                 <Header/>
-                    <Switch>
-                        <Route exact path = '/' component={Homepage}/>
-                        <Route path = '/shop' component={Shop}/>
-                        <Route exact path = '/checkout' component={Checkout}/>
-                        <Route exact path = '/sign-in' render={() => this.props.currentUser ? (<Redirect to='/'/>) : (<SignInAndSignUpPage />)} />
-                    </Switch>
+                        <Switch>
+                            <Route exact path = '/' component={Homepage}/>
+                            <Route path = '/shop' component={Shop}/>
+                            <Route exact path = '/checkout' component={Checkout}/>
+                            <Route exact path = '/sign-in' render={() => this.props.currentUser ? (<Redirect to='/'/>) : (<SignInAndSignUpPage />)} />
+                        </Switch>
                 </BrowserRouter>
             </div>
         );
